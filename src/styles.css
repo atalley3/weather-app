@@ -1,0 +1,43 @@
+body {
+  font-family: "Schoolbell", cursive;
+}
+h1 {
+  font-size: 45px;
+}
+header {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  color: rgb(111, 111, 111);
+}
+.container {
+  max-width: 600px;
+  background: linear-gradient(300deg, rgb(135, 176, 252), #fff);
+  color: #0b0b42;
+  position: relative;
+}
+.future-forecast-day {
+  text-align: end;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.current-weather {
+  text-align: end;
+  font-size: 32px;
+}
+.current-weather-img {
+  max-width: 125%;
+  position: relative;
+  top: -110px;
+  left: -75px;
+}
+.city-search-card {
+  position: relative;
+  top: -100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
